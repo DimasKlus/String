@@ -11,7 +11,7 @@ int main()
     std::cout << name << "\n";
     std::cout << name.length() << "\n";
     std::cout << name[0] << "\n";
-    std::cout << name[5];
+    std::cout << name[name.size() - 1];
     std::cin;
     return 0;
 
